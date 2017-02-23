@@ -1,0 +1,16 @@
+.winners {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: 100%;
+}
+
+.winners_block_year {
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.winners_block {
+	color: #fff;
+}
