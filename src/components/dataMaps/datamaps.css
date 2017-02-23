@@ -14,3 +14,28 @@
 	-moz-animation: scale 1.5s ease 0s infinite normal;
 	animation: scale 1.5s ease 0s infinite normal;
 }
+
+.datamap-container {
+	position: relative;
+}
+
+.mention {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: #139fc7;
+	text-decoration: underline;
+} 
+.mention_content {
+	color: #d6d6d6;
+	padding: 2rem;
+}
+.mention_content a{
+	color: #139fc7;;
+}
+.mention_content h2{
+	margin-bottom: 20px;
+}
+.mention_content p{
+	margin: 10px;
+}

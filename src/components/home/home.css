@@ -18,7 +18,8 @@
 	text-align: center;
 	color: white;
 	padding-bottom: 1rem;
-	font-weight: 900;
+	font-weight: 600;
+	font-size: 30px;
 }
 
 .home_informations {
@@ -49,7 +50,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	min-width: 390px;
+	min-width: 90px;
 }
 
 .home_data_state {

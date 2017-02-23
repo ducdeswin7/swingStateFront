@@ -38,7 +38,7 @@ class Home extends React.Component {
     renderHome() {
         return (
             <div className="home_header">
-                <h1 className="home_header_title">Grands electeurs</h1>
+                <h1 className="home_header_title">Electors</h1>
                 <ProgressBar democrat={this.state.results.democrat} republican={this.state.results.republican}/>
             </div>
         )

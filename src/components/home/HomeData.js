@@ -21,6 +21,7 @@ class HomeData extends React.Component {
     }
 
     render() {
+        console.log();
         return (
             <div className="home_informations">
                 <div className="home_candidats">
@@ -28,7 +29,7 @@ class HomeData extends React.Component {
                     <Candidats candidates={this.state.candidates} />
                 </div>
 
-                {/*{Object.getOwnPropertyNames(this.props.state).length > 0 ?*/}
+                {(Object.getOwnPropertyNames(this.props.state).length > 0) === true?
                     <div className="home_data">
                         <h2 className="home_data_state">{this.props.state.name}</h2>
                         <div className="home_data_info">
@@ -44,8 +45,8 @@ class HomeData extends React.Component {
                             <span className="home_data_info_text">White afro-americain</span>
                         </div>
                     </div>
-                    {/*: <div></div>*/}
-                {/*}*/}
+                    : <div></div>
+                }
 
                 <div className="home_period">
                     <Winners winners={this.props.winners} />

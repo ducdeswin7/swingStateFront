@@ -8,6 +8,7 @@ import SkyLight from 'react-skylight';
 import StateData from './stateData/StateData';
 import styles from './skylightStyles';
 import HomeData from '../home/HomeData';
+import Mention from './Mention';
 import {getStateInfos, getWinners} from '../../utils/ApiHelpers';
 let _ = require('lodash');
 
@@ -252,8 +253,11 @@ export default class DataMap extends React.Component {
         d3.select('svg').remove();
     }
 
-    render() {
+    showMention(){
+        this.refs.mentionDialog.show();
+    }
 
+    render() {
         let styleMap = {
             margin: '0px auto',
             paddingTop: '10rem',
@@ -261,10 +265,18 @@ export default class DataMap extends React.Component {
 
         return (
                 <div id="datamap-container" style={styleMap}>
+                    <span className="mention" onClick={() => this.showMention()}>Legal Notice</span>
+
                     <SkyLight hideOnOverlayClicked
                               closeButtonStyle={styles.closeButtonStyle}
                               dialogStyles={styles.skylightDialog} ref="simpleDialog" title="  ">
                         <StateData state={ this.state.currentState }/>
+                    </SkyLight>
+
+                    <SkyLight hideOnOverlayClicked
+                              closeButtonStyle={styles.closeButtonStyle}
+                              dialogStyles={styles.skylightDialog} ref="mentionDialog" title="  ">
+                        <Mention />
                     </SkyLight>
 
                     <HomeData winners={this.state.winners} candidats={this.state.candidats} state={this.state.currentState} />
