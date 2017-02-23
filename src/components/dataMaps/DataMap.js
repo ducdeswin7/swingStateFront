@@ -248,10 +248,6 @@ export default class DataMap extends React.Component {
         })
     }
 
-    // componentDidUpdate(){
-    //     this.datamap.updateChoropleth(this.redducedData());
-    // }
-
     componentWillUnmount(){
         d3.select('svg').remove();
     }

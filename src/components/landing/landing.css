@@ -45,28 +45,33 @@
 
 .united {
     color: #ffffff;
-    font-size: 4rem;
-    font-weight: 800;
+    font-size: 6rem;
+    font-weight: 500;
     text-align: center;
 }
 
 .swing-state {
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 700;
     text-align: center;
-    padding: 1rem;
     box-sizing: border-box;
-    background: -webkit-linear-gradient(45deg, red, blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
-
+.swing-state_red {
+    color: #d91043;
+}
+.swing-state_blue {
+    color: #139fc7;
+    text-transform: capitalize;
+}
 .subtext {
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
     padding-bottom: 4rem;
+    line-height: 40px;
 }
 
 .enter {

@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 require('./landing.css');
 
-let imgUrl = '../../public/images/img_landing.jpg';
+let imgUrl = '../../images/img_landing.jpg';
 let style = {
     backgroundImage: 'url(' + imgUrl + ')',
     backgroundSize: 'cover',
@@ -16,10 +16,10 @@ class Landing extends React.Component {
             <div className="landing" style={style}>
                 <div className="absolute-center">
                     <h1 className="united">United</h1>
-                    <h2 className="swing-state">Swing states</h2>
-                    <p className="subtext">Vous trouverez au travers de cette expérience
-                        d'innonbrables données sur les elections présidentielles
-                        américaines récentes ou passées</p>
+                    <h2 className="swing-state"><span className="swing-state_red">Swing </span><span className="swing-state_blue">states</span> </h2>
+                    <p className="subtext">Welcome here dear user,
+                        you will find through this experience a mass of datas about the presidential election. The goal of United Swing States
+                        it’s to ease the access of these datas and everything around each election from 1980 to nowadays.</p>
 
                     <div className="enter">
                         <Link to={"home"} className="enter_button">Enter</Link>

@@ -14,6 +14,7 @@ class StateData extends React.Component {
             overflow: 'hidden',
         };
 
+        console.log(this.props.state);
         return (
             <div className="state-data">
                 <div className="state-data_header" style={backgroundStyle}>
