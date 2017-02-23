@@ -28,10 +28,23 @@ class ProgressBar extends React.Component {
            progress: {
                democratPercent,
                republicanPercent
-           }
+           },
+            value: {
+                democrat: nextProps.democrat.value,
+                republican: nextProps.republican.value
+            },
         });
     }
-
+    showPercent() {
+        if(this.state.value) {
+            return (
+                <div className="progress_percent">
+                    <h2 className="progress_percent_red">{this.state.value.republican}</h2>
+                    <h2 className="progress_percent_blue">{this.state.value.democrat}</h2>
+                </div>
+            )
+        }
+    }
     render () {
         let bluePartStyle = {
             color: 'white',
@@ -49,6 +62,8 @@ class ProgressBar extends React.Component {
                     <div style={redPartStyle} className="progress_bar_red"></div>
                     <div style={bluePartStyle} className="progress_bar_blue"></div>
                 </div>
+
+                {this.showPercent()}
             </div>
         )
     }

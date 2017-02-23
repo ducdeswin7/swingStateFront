@@ -51,9 +51,6 @@ class Home extends React.Component {
 
         return (
             <div className="home">
-                {/*<div className="home_search">*/}
-                {/*<i className="material-icons">search</i>*/}
-                {/*</div>*/}
                 {this.renderHome()}
 
                 <DataMap regionData={this.props.regionData} />

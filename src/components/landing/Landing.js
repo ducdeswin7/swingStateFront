@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 require('./landing.css');
 
-let imgUrl = './public/images/landing-bg.jpg';
+let imgUrl = '../../public/images/img_landing.jpg';
 let style = {
     backgroundImage: 'url(' + imgUrl + ')',
     backgroundSize: 'cover',
@@ -14,9 +14,6 @@ class Landing extends React.Component {
     render() {
         return (
             <div className="landing" style={style}>
-                <div className="right-triangle"></div>
-                <div className="left-triangle"></div>
-                <div className="bg-overlay"></div>
                 <div className="absolute-center">
                     <h1 className="united">United</h1>
                     <h2 className="swing-state">Swing states</h2>
