@@ -6,7 +6,6 @@ class PreElections extends React.Component {
     renderPoll() {
         return (
             this.props.polls.map((poll, i) => {
-                console.log(poll);
                 return (
                     <div key={i} className="state-data_content_polls_item">
                         <Donut democrat={poll.democrat_value}

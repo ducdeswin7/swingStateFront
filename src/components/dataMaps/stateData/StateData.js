@@ -33,11 +33,7 @@ class StateData extends React.Component {
 
         });
 
-        console.log('props', this.props.state.electoral_college);
-
-        console.log('electoral_college_color', electoral_college_color);
-        console.log('electoral_college_data', electoral_college_data);
-
+        console.log('props', this.props.state);
 
         return (
             <div className="state-data">
