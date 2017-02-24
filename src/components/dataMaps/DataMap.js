@@ -268,7 +268,7 @@ export default class DataMap extends React.Component {
 
         return (
                 <div id="datamap-container" style={styleMap}>
-                    <span className="mention" onClick={() => this.showMention()}>legal</span>
+                    <span className="mention" onClick={() => this.showMention()}>Legal Mention</span>
 
                     <SkyLight hideOnOverlayClicked
                               closeButtonStyle={styles.closeButtonStyle}
