@@ -14,7 +14,8 @@ class StateData extends React.Component {
             overflow: 'hidden',
         };
 
-        console.log(this.props.state);
+        console.log('props', this.props.state.poll[0].poll_data);
+
         return (
             <div className="state-data">
                 <div className="state-data_header" style={backgroundStyle}>
@@ -26,14 +27,13 @@ class StateData extends React.Component {
                     </h2>
 
                     <div className="state-data_content_informations">
-                        <InformationsText />
-                        <InformationsText />
+                        <p> {this.props.state.state_context[0].content} </p>
                     </div>
                     <h2 className="state-data_content_title">
                         Pre-election polls
                     </h2>
 
-                    <PreElections />
+                    <PreElections polls={this.props.state.poll[0].poll_data} />
 
                     <div className="state-data_content_title-double">
                         <div className="state-data_content_title-double_container">

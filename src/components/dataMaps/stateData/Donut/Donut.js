@@ -16,11 +16,11 @@ class Donut extends React.Component {
 
         let pieData = [
             {
-                value: 35,
+                value: this.props.republican,
                 color: "#d9372d"
             },
             {
-                value: 100 - 35,
+                value: 100 - this.props.republican,
                 color: "#1EBBDD"
             }
         ];

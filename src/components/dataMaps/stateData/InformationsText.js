@@ -4,7 +4,6 @@ class InformationsText extends React.Component {
     render() {
         return (
             <div className="state-data_content_informations_block">
-                <h3 className="state-data_content_informations_block_title">Childhood</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu

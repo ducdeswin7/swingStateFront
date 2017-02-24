@@ -79,6 +79,12 @@ canvas {
 	display: flex;
 
 }
+.state-data_content_informations p {
+	font-family: 'Merriweather', serif;
+	margin: 2rem 0;
+	line-height: 26px;
+	font-size: 16px;
+}
 
 .state-data_content_informations_block {
 	padding: 3rem 15.5px;

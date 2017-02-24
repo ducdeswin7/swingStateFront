@@ -65,8 +65,11 @@ export default class DataMap extends React.Component {
                 })
             }.bind(this));
 
-        this.refs.simpleDialog.show();
+        setTimeout(function() {
+            this.refs.simpleDialog.show();
+        }.bind(this), 2000);
     }
+
     renderMap($this){
         let map =  new Datamap({
             element: ReactDOM.findDOMNode(this),
@@ -265,7 +268,7 @@ export default class DataMap extends React.Component {
 
         return (
                 <div id="datamap-container" style={styleMap}>
-                    <span className="mention" onClick={() => this.showMention()}>Legal Notice</span>
+                    <span className="mention" onClick={() => this.showMention()}>legal</span>
 
                     <SkyLight hideOnOverlayClicked
                               closeButtonStyle={styles.closeButtonStyle}
