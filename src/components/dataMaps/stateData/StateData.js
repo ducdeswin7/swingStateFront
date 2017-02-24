@@ -2,8 +2,8 @@ import React from 'react';
 import PreElections from './preElections';
 import ElectoralCollege from './ElectoralCollege';
 import ProgressBarInfo from '../../progressBar/ProgressBarInfo';
-import InformationsText from './InformationsText';
 import KeyFigures from './KeyFigures';
+let _ = require('lodash');
 
 class StateData extends React.Component {
     showRecentElection() {
@@ -22,7 +22,22 @@ class StateData extends React.Component {
             overflow: 'hidden',
         };
 
-        console.log('props', this.props.state);
+        let electoral_college_data = [],
+            electoral_college_color = [],
+            electoral_college_label = [];
+
+        _.each(this.props.state.electoral_college, (college) => {
+           electoral_college_color.push(college.party.party_color);
+            electoral_college_data.push(college.value);
+            electoral_college_label.push(college.election.year)
+
+        });
+
+        console.log('props', this.props.state.electoral_college);
+
+        console.log('electoral_college_color', electoral_college_color);
+        console.log('electoral_college_data', electoral_college_data);
+
 
         return (
             <div className="state-data">
@@ -52,7 +67,9 @@ class StateData extends React.Component {
 
                     <div className="state-data_content_informations">
                         <div className="state-data_content_informations_block">
-                            <ElectoralCollege />
+                            <ElectoralCollege labels={electoral_college_label}
+                                              data={electoral_college_data}
+                                              color={electoral_college_color} />
                         </div>
 
                         <div className="state-data_content_informations_block">

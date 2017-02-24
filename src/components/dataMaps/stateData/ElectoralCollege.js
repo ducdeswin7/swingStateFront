@@ -12,19 +12,13 @@ class ElectoralCollege extends React.Component {
         };
 
         let barChartData = {
-            labels: ["2001", "2002", "2003", "2004", "2005"],
+            labels: this.props.labels,
             datasets: [
                 {
-                fillColor: ["rgba(220,220,220,0.5)", "navy", "red", "orange"],
+                fillColor: this.props.color,
                 strokeColor: "transparent",
                 borderColor: "transparent",
-                data: [
-                    '10',
-                    '20',
-                    '30',
-                    '40',
-                    '50',
-                ]
+                data: this.props.data
             }
             ]
         };

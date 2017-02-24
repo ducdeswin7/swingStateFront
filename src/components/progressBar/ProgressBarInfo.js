@@ -45,8 +45,6 @@ class ProgressBarInfo extends React.Component {
             backgroundColor: 'white',
         };
 
-        console.log('calcaut', total);
-
         return (
             <div className="progress-info">
                 <div className="progress-info_bar">

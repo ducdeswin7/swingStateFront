@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a393a4a-6b48-4a99-9dad-7373050f86f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js" afterPath="$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js" afterPath="$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/dataMaps/stateData/preElections.js" afterPath="$PROJECT_DIR$/src/components/dataMaps/stateData/preElections.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/progressBar/ProgressBar.js" afterPath="$PROJECT_DIR$/src/components/progressBar/ProgressBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js" afterPath="$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,38 +30,30 @@
       <file leaf-file-name="StateData.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="486">
+              <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InformationsText.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/InformationsText.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProgressBarInfo.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js">
+      <file leaf-file-name="skylightStyles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/skylightStyles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgressBar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/progressBar/ProgressBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="58" column="57" lean-forward="false" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stateData.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="85" column="20" lean-forward="false" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            <state relative-caret-position="199">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -72,8 +62,8 @@
       <file leaf-file-name="DataMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/dataMaps/DataMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="270" column="94" lean-forward="false" selection-start-line="270" selection-start-column="94" selection-end-line="270" selection-end-column="94" />
+            <state relative-caret-position="216">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -81,51 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preElections.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/preElections.js">
+      <file leaf-file-name="_reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/_reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="556">
+              <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Donut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/Donut/Donut.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mention.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dataMaps/Mention.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" column="171" lean-forward="false" selection-start-line="17" selection-start-column="171" selection-end-line="17" selection-end-column="171" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Candidats.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/candidats/Candidats.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="60" column="58" lean-forward="false" selection-start-line="60" selection-start-column="58" selection-end-line="61" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElectoralCollege.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ElectoralCollege.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="59" />
+            <state relative-caret-position="252">
+              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -142,6 +102,7 @@
       <find>winners</find>
       <find>this.props</find>
       <find>nextProps</find>
+      <find>nextProps.election</find>
     </findStrings>
     <replaceStrings>
       <replace>.</replace>
@@ -177,7 +138,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/skylightStyles.js" />
-        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js" />
         <option value="$PROJECT_DIR$/src/components/candidats/candidatPopin.css" />
         <option value="$PROJECT_DIR$/src/components/landing/Landing.js" />
         <option value="$PROJECT_DIR$/src/components/landing/landing.css" />
@@ -190,14 +150,15 @@
         <option value="$PROJECT_DIR$/src/components/home/home.css" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/Mention.js" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/datamaps.css" />
-        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/InformationsText.js" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/stateData.css" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/Donut/Donut.js" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/DataMap.js" />
         <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/preElections.js" />
-        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js" />
         <option value="$PROJECT_DIR$/src/components/progressBar/ProgressBar.js" />
         <option value="$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js" />
+        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/InformationsText.js" />
+        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js" />
+        <option value="$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js" />
       </list>
     </option>
   </component>
@@ -1052,12 +1013,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487861061836</updated>
-      <workItem from="1487861064254" duration="28437000" />
+      <workItem from="1487861064254" duration="29522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28437000" />
+    <option name="totallyTimeSpent" value="29522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1873" height="1084" extended-state="6" />
@@ -1287,14 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/skylightStyles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/candidats/CandidatProfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -1323,14 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/_reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1419,22 +1364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/InformationsText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="156" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="9" selection-end-column="156" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/candidats/Candidats.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -1475,16 +1404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/DataMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="270" column="94" lean-forward="false" selection-start-line="270" selection-start-column="94" selection-end-line="270" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/progressBar/ProgressBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="786">
@@ -1493,18 +1412,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js">
+    <entry file="file://$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="729">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/progressBar/ProgressBarInfo.js">
+    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/skylightStyles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="199">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/_reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/DataMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/InformationsText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/StateData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="69" column="34" lean-forward="false" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dataMaps/stateData/ElectoralCollege.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
         </state>
       </provider>
