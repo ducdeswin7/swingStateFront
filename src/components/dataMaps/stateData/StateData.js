@@ -6,6 +6,14 @@ import InformationsText from './InformationsText';
 import KeyFigures from './KeyFigures';
 
 class StateData extends React.Component {
+    showRecentElection() {
+        return (
+            this.props.state.recent_election.map((election, i) => {
+                return (<ProgressBarInfo key={i} election={election} />);
+            })
+        )
+    }
+
     render() {
         let imgUrl = 'http://unitedswingstates.com/uploads/states/' + this.props.state.path;
         let backgroundStyle = {
@@ -14,7 +22,7 @@ class StateData extends React.Component {
             overflow: 'hidden',
         };
 
-        console.log('props', this.props.state.poll[0].poll_data);
+        console.log('props', this.props.state);
 
         return (
             <div className="state-data">
@@ -48,10 +56,7 @@ class StateData extends React.Component {
                         </div>
 
                         <div className="state-data_content_informations_block">
-                            <ProgressBarInfo />
-                            <ProgressBarInfo />
-                            <ProgressBarInfo />
-                            <ProgressBarInfo />
+                            {this.showRecentElection()}
                         </div>
                     </div>
 

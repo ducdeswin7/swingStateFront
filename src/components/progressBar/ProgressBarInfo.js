@@ -9,29 +9,43 @@ class ProgressBarInfo extends React.Component {
 
         this.state = {
             progress: {
-                red: '30',
-                grey: '0',
-                blue: '70',
             }
         }
     }
 
+    getTotal(democratValue, republicanValue, otherValue) {
+        return parseInt(democratValue) + parseInt(republicanValue) + parseInt(otherValue);
+
+    }
+
+    getPercent(value, total) {
+        return (parseInt(value) * 100) / parseInt(total);
+    }
+
     render () {
+
+        let total = this.getTotal(this.props.election.democrat_value, this.props.election.republican_value, this.props.election.other_value);
+        let democratPercent = this.getPercent(this.props.election.democrat_value, total);
+        let republicanPercent = this.getPercent(this.props.election.republican_value, total);
+        let otherPercent = this.getPercent(this.props.election.other_value, total);
+
         let bluePartStyle = {
             color: 'white',
-            width: this.state.progress.blue+'%',
+            width: democratPercent + '%',
         };
 
         let redPartStyle = {
             color: 'white',
-            width: this.state.progress.red+'%'
+            width: republicanPercent + '%'
         };
 
         let swingPartStyle = {
             color: '',
-            width: this.state.progress.grey+'%',
-            backgroundColor: 'grey',
+            width: otherPercent + '%',
+            backgroundColor: 'white',
         };
+
+        console.log('calcaut', total);
 
         return (
             <div className="progress-info">

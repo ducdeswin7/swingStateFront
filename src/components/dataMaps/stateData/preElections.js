@@ -20,8 +20,6 @@ class PreElections extends React.Component {
     }
 
     render() {
-        console.log(this.props);
-
         return (
             <div className="state-data_content_polls">
                 {this.renderPoll()}
