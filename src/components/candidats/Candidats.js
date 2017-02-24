@@ -5,6 +5,7 @@ require('./candidatPopin.css');
 
 import CandidatProfile from './CandidatProfile';
 import styles from '../dataMaps/skylightStyles'
+import {getCandidatsInfos} from '../../utils/ApiHelpers';
 
 class candidates extends React.Component {
     constructor(props) {
@@ -26,14 +27,19 @@ class candidates extends React.Component {
     }
 
     setSelectedCandidate(candidatData) {
-        this.setState({
-            selectedCandidate: candidatData
-        })
+        getCandidatsInfos(candidatData.last_name).then((resp) => {
+            this.setState({
+                selectedCandidate: resp.candidate
+            })
+        });
     }
 
     selectedCandidat(candidatData) {
-        this.refs.candidatPopin.show();
         this.setSelectedCandidate(candidatData)
+
+        setTimeout(function() {
+            this.refs.candidatPopin.show();
+        }.bind(this), 1000);
     }
 
     createListCandidate() {
@@ -54,6 +60,8 @@ class candidates extends React.Component {
     }
 
     render() {
+        console.log('state pp', this.state);
+
         return(
         <div className="candidat-lists">
 
